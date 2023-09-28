@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
+
+/* In your CSS file or a <style> block */
+. {
+  font-family: 'Open-Sans'
+}
+
+
+
+header h1{
+  text-align:center;
+  font-size:50px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px; 
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+tbody tr:nth-child(odd) {
+  background-color: tan;
+  height: 50px;
+}
+
+th {
+  text-align: center;
+  background-color: lightgray; /* Background color for table header */
+  padding: 10px; /* Adjust padding as needed */
+}
+
+img {
+  max-width: 120px; /* Adjust the maximum width as needed */
+  max-height: 150px; /* Adjust the maximum height as needed */
+  width: auto;
+  height: auto;
+}
